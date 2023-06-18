@@ -44,7 +44,7 @@ function CarDetails(props) {
         </div>
         <div>
           <Road />
-          <p>Km's Driven</p>
+          <p>Km&apos;s Driven</p>
           <span>{distance}</span>
         </div>
       </div>
