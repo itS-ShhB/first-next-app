@@ -21,7 +21,7 @@ function CarDetails(props) {
 
   return (
     <div className={styles.container}>
-      <img src={image} className={styles.image} />
+      <img src={image} className={styles.image} alt="Car Image" />
       <h3 className={styles.header}>
         {name} {model}
       </h3>
