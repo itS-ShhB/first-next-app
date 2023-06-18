@@ -5,6 +5,7 @@ import Model from "../icons/Model";
 import Calender from "../icons/Calender";
 import Money from "../icons/Money";
 import Road from "../icons/Road";
+import Image from "next/image";
 
 function CarDetails(props) {
   const {
@@ -21,7 +22,7 @@ function CarDetails(props) {
 
   return (
     <div className={styles.container}>
-      <img src={image} className={styles.image} alt="Car Image" />
+      <Image src={image} className={styles.image} alt="Car Image" />
       <h3 className={styles.header}>
         {name} {model}
       </h3>
